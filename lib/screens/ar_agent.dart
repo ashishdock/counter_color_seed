@@ -126,7 +126,7 @@ class _ArAgentState extends State<ArAgent> {
                         },
                       )
                     : TextFormField(
-  style: const TextStyle(fontSize: 9, color: Colors.black), // Set text color
+  style: const TextStyle(fontSize: 9, ), // Set text color
   decoration: InputDecoration(
     filled: true,
     hintText: 'Type here', // Placeholder text
